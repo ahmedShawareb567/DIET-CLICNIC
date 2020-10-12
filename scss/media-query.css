@@ -1,0 +1,126 @@
+@media (max-width: 1199px) {
+    .headerSection header .header-content .doctor-text h3{
+        font-size: 3rem;
+    }
+    .headerSection header .header-content .doctor-text p{
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .headerSection header .header-content .doctor-text {
+        margin-top: 4rem;
+    }
+    .headerSection header .header-content .doctor-text h3{
+        font-size: 2rem;
+    }
+    .headerSection header .header-content .doctor-text p{
+        font-size: .6rem;
+    }
+    .headerSection header nav .navbar-nav .nav-item .navbar-link {
+        font-size: .8rem;
+    }
+    .headerSection header .header-content .doctor-text a{
+        padding :1rem 1.5rem;
+        font-size: .9rem;
+    }
+    .headerSection header .header-content .doctor-text a i{
+        font-size: .7rem;
+        padding-left: .2rem;
+    }
+    .features-section .pi-content img{
+        height: 4rem;
+    }
+    .features-section .pi-content p{
+        padding: 1rem .5rem 0rem .5rem;
+        font-size: .6rem;
+    }
+    .heros-section .carousel-content{
+        height: 25rem;
+    }
+    .heros-section .hr-content{
+        margin-top :1rem;
+    }
+    .heros-section .hr-content p{
+        font-size :.7rem;
+    }
+    .one-blog-sec .current-post .big-img{
+        height: 20rem;
+    }
+}
+@media (max-width: 767px) {
+    .headerSection header .header-content .doctor-text{
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .headerSection header .header-content .doctor-text a{
+        margin-bottom: 0rem;
+    }
+    .headerSection header nav{
+        margin-top: 2rem;
+    }
+    .headerSection header .header-content{
+        padding-top: 5rem;
+    }
+    .headerSection header .header-content .doctor-pic img{
+        height :15rem;
+    }
+    .underHeader-section{
+        margin: 2rem auto;
+    }
+    .heros-section .hr-content p{
+        margin-bottom: 2rem;
+    }
+    .blogs-section .owl-next{
+        right: 0%;
+    }
+    .blogs-section .owl-prev{
+        left: 0%;
+    }
+    .map-contact .map-section{
+        height:15rem;
+    }
+    .map-contact .contact-section{
+        height :20rem;
+    }
+    
+    footer .contact-isuues{
+        text-align :center;
+    }
+    .prices-section .price-box{
+        margin: 1rem auto;
+    }
+    .prices-section .price-title p{
+        margin-bottom :1rem;
+    }
+    .prices-section .price-box.second{
+        transform: translateY(0rem);
+        border :.15rem solid rgba(0,0,0, .1);
+        box-shadow: 0rem 0rem 0rem 0rem transparent;
+    }
+}
+@media(max-width: 576px) {
+    .headerSection header nav .navbar-collapse{
+        background-color: #fff;
+        padding: 1rem 0rem;
+    }
+    .headerSection header nav .navbar-nav{
+        text-align: center;
+    }
+    .headerSection header nav .navbar-nav .nav-item .navbar-link{
+        display: block;
+        color: #26312f;
+    }
+    .headerSection header nav .navbar-nav .nav-item .navbar-link::after{
+        background-color: #99f3bd;
+    }
+    .headerSection header nav .navbar-nav .nav-item .navbar-link:hover{
+        color: #99f3bd;
+    }
+    .headerSection header nav .navbar-brand{
+        font-size: 1.4rem;
+    }
+    .heros-section .hr-content h3{
+        font-size: 2.5rem;
+    }
+}
